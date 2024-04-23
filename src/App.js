@@ -5,6 +5,7 @@ export default function App() {
 
 
   function handleAddItems(item) {
+    console.log("adfadsf")
     setItems((items) => [...items, item]);
   }
 
